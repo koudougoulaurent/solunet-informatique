@@ -1,0 +1,91 @@
+# TYPO3 specific
+public/fileadmin/
+public/typo3temp/
+public/uploads/
+public/typo3conf/LocalConfiguration.php
+public/typo3conf/PackageStates.php
+public/typo3conf/ext/
+
+# Composer
+vendor/
+composer.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if using npm)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Cache directories
+cache/
+var/cache/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# Fichiers de cache
+.cache/
+*.cache
+
+# Fichiers de configuration locale
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Dossiers de dépendances (si vous en ajoutez plus tard)
+node_modules/
+vendor/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*~
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de build (si vous en ajoutez plus tard)
+dist/
+build/ 

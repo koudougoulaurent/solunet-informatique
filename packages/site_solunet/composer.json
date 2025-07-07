@@ -1,0 +1,24 @@
+{
+    "name": "solunet-informatique/site-solunet",
+    "type": "typo3-cms-extension",
+    "description": "Extension de site pour SOLUNET INFORMATIQUE",
+    "license": "MIT",
+    "require": {
+        "typo3/cms-core": "^12.4",
+        "typo3/cms-frontend": "^12.4",
+        "typo3/cms-backend": "^12.4",
+        "typo3/cms-extbase": "^12.4",
+        "typo3/cms-fluid": "^12.4",
+        "typo3/cms-fluid-styled-content": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolunetInformatique\\SiteSolunet\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "site_solunet"
+        }
+    }
+} 

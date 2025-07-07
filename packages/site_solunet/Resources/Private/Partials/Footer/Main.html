@@ -1,0 +1,99 @@
+<footer class="bg-dark text-light py-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Informations de l'entreprise -->
+            <div class="col-lg-4 mb-4">
+                <h5 class="text-primary mb-3">
+                    <i class="fas fa-network-wired me-2"></i>{siteName}
+                </h5>
+                <p class="text-muted mb-3">{siteSlogan}</p>
+                <p class="small text-muted">
+                    SOLUNET INFORMATIQUE est votre partenaire de confiance pour toutes vos solutions informatiques. 
+                    Notre équipe d'experts vous accompagne avec professionnalisme et réactivité.
+                </p>
+            </div>
+            
+            <!-- Services rapides -->
+            <div class="col-lg-4 mb-4">
+                <h6 class="text-primary mb-3">Nos Services</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="{f:uri.page(uid: 2)}#maintenance" class="text-muted text-decoration-none">
+                            <i class="fas fa-desktop me-2"></i>Maintenance Informatique
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="{f:uri.page(uid: 2)}#network" class="text-muted text-decoration-none">
+                            <i class="fas fa-network-wired me-2"></i>Réseau d'Entreprise
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="{f:uri.page(uid: 2)}#electronics" class="text-muted text-decoration-none">
+                            <i class="fas fa-tools me-2"></i>Électronique & Réparation
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="{f:uri.page(uid: 2)}#cloud" class="text-muted text-decoration-none">
+                            <i class="fas fa-cloud me-2"></i>Solutions Cloud
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Contact -->
+            <div class="col-lg-4 mb-4">
+                <h6 class="text-primary mb-3">Contact</h6>
+                <div class="mb-3">
+                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                    <span class="text-muted">123 Rue de l'Innovation<br>75001 Paris, France</span>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-phone text-primary me-2"></i>
+                    <a href="tel:+33123456789" class="text-muted text-decoration-none">+33 1 23 45 67 89</a>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-envelope text-primary me-2"></i>
+                    <a href="mailto:contact@solunet-informatique.fr" class="text-muted text-decoration-none">contact@solunet-informatique.fr</a>
+                </div>
+                
+                <!-- Réseaux sociaux -->
+                <div class="mt-4">
+                    <h6 class="text-primary mb-3">Suivez-nous</h6>
+                    <div class="d-flex gap-3">
+                        <a href="https://facebook.com/solunetinformatique" class="text-muted fs-5" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/solunet-informatique" class="text-muted fs-5" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/solunet_info" class="text-muted fs-5" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/solunetinformatique" class="text-muted fs-5" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ligne de séparation -->
+        <hr class="my-4 border-secondary">
+        
+        <!-- Copyright -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="small text-muted mb-0">
+                    © {f:format.date(format: 'Y')} {siteName}. Tous droits réservés.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p class="small text-muted mb-0">
+                    <a href="#" class="text-muted text-decoration-none me-3">Mentions légales</a>
+                    <a href="#" class="text-muted text-decoration-none me-3">Politique de confidentialité</a>
+                    <a href="#" class="text-muted text-decoration-none">CGV</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer> 

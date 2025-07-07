@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{siteName} - {siteSlogan}</title>
+    <f:render section="Meta" />
+    <f:render section="CssIncludes" />
+</head>
+<body>
+    <!-- Navigation -->
+    <f:render partial="Navigation/Main" arguments="{_all}" />
+    
+    <!-- Contenu principal -->
+    <main role="main">
+        <f:render section="Main" />
+    </main>
+    
+    <!-- Footer -->
+    <f:render partial="Footer/Main" arguments="{_all}" />
+    
+    <f:render section="JavaScriptIncludes" />
+</body>
+</html>
+
+<f:section name="Meta">
+    <meta name="description" content="SOLUNET INFORMATIQUE - Votre solution numérique de proximité. Maintenance informatique, réseaux, électronique, vente de matériel, solutions cloud et sécurité informatique.">
+    <meta name="keywords" content="informatique, maintenance, réseau, électronique, réparation, matériel informatique, cloud, sécurité, proximité">
+    <meta name="author" content="SOLUNET INFORMATIQUE">
+    <meta property="og:title" content="{siteName} - {siteSlogan}">
+    <meta property="og:description" content="Votre solution numérique de proximité">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{f:uri.page()}">
+    <link rel="canonical" href="{f:uri.page()}">
+</f:section>
+
+<f:section name="CssIncludes">
+    <f:asset.css identifier="bootstrap" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <f:asset.css identifier="fontawesome" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <f:asset.css identifier="solunet-style" src="EXT:site_solunet/Resources/Public/Css/solunet.css" />
+</f:section>
+
+<f:section name="Main">
+    <f:render partial="Page/Content" arguments="{_all}" />
+</f:section>
+
+<f:section name="JavaScriptIncludes">
+    <f:asset.script identifier="bootstrap" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" />
+    <f:asset.script identifier="solunet-script" src="EXT:site_solunet/Resources/Public/JavaScript/solunet.js" />
+</f:section> 

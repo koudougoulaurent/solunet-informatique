@@ -1,0 +1,93 @@
+<section class="hero-section position-relative overflow-hidden">
+    <!-- Image de fond avec overlay -->
+    <div class="hero-background position-absolute w-100 h-100">
+        <div class="hero-overlay position-absolute w-100 h-100 bg-dark opacity-75"></div>
+        <div class="hero-pattern position-absolute w-100 h-100" style="background-image: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grid\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 10 0 L 0 0 0 10\" fill=\"none\" stroke=\"%23ffffff\" stroke-width=\"0.5\" opacity=\"0.1\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grid)\"/></svg>');"></div>
+    </div>
+    
+    <!-- Contenu principal -->
+    <div class="container position-relative">
+        <div class="row min-vh-100 align-items-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="hero-content text-light">
+                    <!-- Badge -->
+                    <div class="mb-4">
+                        <span class="badge bg-primary fs-6 px-3 py-2">
+                            <i class="fas fa-star me-2"></i>Expert en solutions informatiques
+                        </span>
+                    </div>
+                    
+                    <!-- Titre principal -->
+                    <h1 class="display-3 fw-bold mb-4">
+                        Votre partenaire informatique de <span class="text-primary">confiance</span>
+                    </h1>
+                    
+                    <!-- Description -->
+                    <p class="lead mb-5 fs-5 text-light-emphasis">
+                        SOLUNET INFORMATIQUE est une entreprise innovante spécialisée dans les solutions informatiques 
+                        adaptées aux besoins des professionnels et des particuliers. Notre expertise couvre la maintenance, 
+                        les réseaux, l'électronique et bien plus encore.
+                    </p>
+                    
+                    <!-- Boutons d'action -->
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <a href="{f:uri.page(uid: 2)}" class="btn btn-primary btn-lg px-4 py-3">
+                            <i class="fas fa-cogs me-2"></i>Découvrir nos services
+                        </a>
+                        <a href="{f:uri.page(uid: 4)}" class="btn btn-outline-light btn-lg px-4 py-3">
+                            <i class="fas fa-phone me-2"></i>Nous contacter
+                        </a>
+                    </div>
+                    
+                    <!-- Statistiques -->
+                    <div class="row mt-5 pt-5 border-top border-light border-opacity-25">
+                        <div class="col-4 text-center">
+                            <div class="stat-item">
+                                <div class="stat-number text-primary fw-bold fs-2">500+</div>
+                                <div class="stat-label text-light-emphasis">Clients satisfaits</div>
+                            </div>
+                        </div>
+                        <div class="col-4 text-center">
+                            <div class="stat-item">
+                                <div class="stat-number text-primary fw-bold fs-2">24/7</div>
+                                <div class="stat-label text-light-emphasis">Support technique</div>
+                            </div>
+                        </div>
+                        <div class="col-4 text-center">
+                            <div class="stat-item">
+                                <div class="stat-number text-primary fw-bold fs-2">10+</div>
+                                <div class="stat-label text-light-emphasis">Années d'expérience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Image illustrative -->
+            <div class="col-lg-4 col-xl-5 d-none d-lg-block">
+                <div class="hero-image text-center">
+                    <div class="position-relative">
+                        <div class="hero-icon-large text-primary opacity-25">
+                            <i class="fas fa-network-wired" style="font-size: 15rem;"></i>
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <div class="hero-icon-small text-primary">
+                                <i class="fas fa-laptop" style="font-size: 4rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll indicator -->
+    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4">
+        <div class="scroll-indicator text-light text-center">
+            <div class="scroll-text mb-2">Découvrir</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+</section> 

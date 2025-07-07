@@ -1,0 +1,5 @@
+<f:if condition="{data}">
+    <f:for each="{data}" as="contentElement">
+        <f:render partial="ContentElements/{contentElement.CType}" arguments="{contentElement: contentElement}" />
+    </f:for>
+</f:if> 

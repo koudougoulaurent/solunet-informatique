@@ -1,0 +1,75 @@
+# Configuration des constantes pour SOLUNET INFORMATIQUE
+
+# Couleurs de la marque
+site.color.primary = #007bff
+site.color.secondary = #6c757d
+site.color.success = #28a745
+site.color.info = #17a2b8
+site.color.warning = #ffc107
+site.color.danger = #dc3545
+site.color.light = #f8f9fa
+site.color.dark = #343a40
+
+# Typographie
+site.font.family = 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+site.font.size.base = 16px
+site.font.size.h1 = 2.5rem
+site.font.size.h2 = 2rem
+site.font.size.h3 = 1.75rem
+site.font.size.h4 = 1.5rem
+site.font.size.h5 = 1.25rem
+site.font.size.h6 = 1rem
+
+# Espacement
+site.spacing.section = 5rem
+site.spacing.container = 2rem
+site.spacing.element = 1rem
+
+# Breakpoints
+site.breakpoint.sm = 576px
+site.breakpoint.md = 768px
+site.breakpoint.lg = 992px
+site.breakpoint.xl = 1200px
+site.breakpoint.xxl = 1400px
+
+# Configuration du site
+site.name = SOLUNET INFORMATIQUE
+site.slogan = Votre solution numérique de proximité
+site.email = contact@solunet-informatique.fr
+site.phone = +33 1 23 45 67 89
+site.address = 123 Rue de l'Innovation, 75001 Paris, France
+
+# Réseaux sociaux
+site.social.facebook = https://facebook.com/solunetinformatique
+site.social.linkedin = https://linkedin.com/company/solunet-informatique
+site.social.twitter = https://twitter.com/solunet_info
+site.social.instagram = https://instagram.com/solunetinformatique
+
+# Configuration des services
+site.services.maintenance.title = Maintenance Informatique
+site.services.maintenance.description = Installation, diagnostic, réparation et optimisation des ordinateurs
+site.services.maintenance.icon = fa-desktop
+
+site.services.network.title = Réseau d'Entreprise
+site.services.network.description = Mise en place, configuration et sécurisation des réseaux (LAN/WiFi, VPN)
+site.services.network.icon = fa-network-wired
+
+site.services.electronics.title = Électronique & Réparation
+site.services.electronics.description = Réparation de matériels électroniques : ordinateurs, imprimantes, modems
+site.services.electronics.icon = fa-tools
+
+site.services.sales.title = Vente de Matériel Informatique
+site.services.sales.description = Fourniture de PC, périphériques, accessoires et consommables
+site.services.sales.icon = fa-shopping-cart
+
+site.services.cloud.title = Solutions Cloud & Sauvegarde
+site.services.cloud.description = Mise en place de sauvegardes cloud, solutions de travail à distance
+site.services.cloud.icon = fa-cloud
+
+site.services.security.title = Sécurité Informatique
+site.services.security.description = Protection des données, antivirus, pare-feu, contrôle parental
+site.services.security.icon = fa-shield-alt
+
+site.services.consulting.title = Conseil et Audit Informatique
+site.services.consulting.description = Évaluation des besoins et mise en œuvre de solutions adaptées
+site.services.consulting.icon = fa-chart-line 
