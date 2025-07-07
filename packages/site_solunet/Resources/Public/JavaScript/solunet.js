@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">Matériel informatique #${i}</h5>
                             <p class="card-text text-muted">Découvrez ce produit disponible chez SOLUNET INFORMATIQUE.</p>
-                            <a href="contact.html" class="btn btn-primary mt-auto"><i class="fas fa-paper-plane me-2"></i>Demander un devis</a>
+                            <a href="contact" class="btn btn-primary mt-auto"><i class="fas fa-paper-plane me-2"></i>Demander un devis</a>
                         </div>
                     </div>
                 </div>
